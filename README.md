@@ -33,7 +33,7 @@ The application performs the following steps:
    pip install uv
 
    or
-   
+
    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
    
    # On macOS/Linux
@@ -83,4 +83,4 @@ uv add package-name
 uvicorn main:app --reload
 ```
 ## Security Note
-This implementation uses SHA-256 without salt for educational purposes. In production, use proper password hashing libraries like bcrypt or Argon2.
+This implementation uses SHA-256 without salt for educational purposes.
