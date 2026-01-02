@@ -30,6 +30,10 @@ The application performs the following steps:
 1. Make sure you have `uv` installed. If not, install it:
    ```bash
    # On Windows
+   pip install uv
+
+   or
+   
    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
    
    # On macOS/Linux
