@@ -82,5 +82,3 @@ uv add package-name
 ```bash
 uvicorn main:app --reload
 ```
-## Security Note
-This implementation uses SHA-256 without salt for educational purposes.
